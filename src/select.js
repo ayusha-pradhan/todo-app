@@ -19,17 +19,7 @@ render(){
                 )}
                 )}
         </div>
-      // <>
-        //     {places.map((places) =>{
-        //         if(places.complete === true){
-        //        return({this.places.place})
-        //     }
-        //     }
-        //     )
-        //     }
-        // </>
-
-            )
+     )
 }
 
 }

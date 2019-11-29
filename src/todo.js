@@ -5,7 +5,7 @@ export default class Todo extends React.Component{
 render(){
     
     const {places,complete}= this.props;
-    // debugger;
+   
     return( 
         
         <div style={{textDecoration: complete ? "line-through" : ""}}
@@ -16,7 +16,6 @@ render(){
     
 }
 toggleTodo = ()=>{
-    // debugger;
     this.props.updateTodoFn(this.props.places);
 }
 
